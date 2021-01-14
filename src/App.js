@@ -1,12 +1,14 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
+
+import { Quote } from "./features/quotes/Quote"
 
 function App() {
   return (
     <div className="App">
-      <div id="quote-box">
-          <h1>Hello World</h1>
-      </div>
+      <React.Fragment>
+        <Quote />
+      </React.Fragment>
     </div>
   );
 }
